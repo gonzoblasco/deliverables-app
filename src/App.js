@@ -12,8 +12,8 @@ function App () {
         <Header/>
         <main>
           <Routes>
-            <Route exact path="/" component={<DeliverablesList />}/>
-            <Route path="/deliverable/:id" component={<DeliverableDetail />}/>
+            <Route path="/" element={<DeliverablesList/>}/>
+            <Route path="/deliverable/:id" element={<DeliverableDetail/>}/>
           </Routes>
         </main>
       </div>
